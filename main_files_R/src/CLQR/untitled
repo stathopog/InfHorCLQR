@@ -1,0 +1,33 @@
+//
+//  Backtrack.hpp
+//  Constrained-LQR
+//
+//  Created by Georgios on 09/09/15.
+//
+//
+
+#ifndef __Constrained_LQR__Backtrack__
+#define __Constrained_LQR__Backtrack__
+
+#include <stdio.h>
+#include </opt/local/include/armadillo>
+#include "AugmentSize.hpp"
+
+using namespace arma;
+using namespace std;
+
+//! Header for the Backtrack.cpp
+/*!
+ Contains three functions, the main, a FunEval and a GradEval that evaluate function value and gradient
+ */
+
+
+//! function prototypes:
+
+double Backtrack(temp_data* p_temp_data, mat& u, vec& lambda, vec& W, double Lip, double beta); // Performs backtracking and returns local Lipschitz constant
+
+double FunEval(temp_data* p_temp_data, vec& lambda); // Dual function evaluation
+
+vec GradEval(temp_data* p_temp_data, mat& u); // Dual function's gradient evaluation 
+
+#endif /* defined(__Constrained_LQR__Backtrack__) */

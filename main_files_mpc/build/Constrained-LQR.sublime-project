@@ -1,0 +1,54 @@
+{
+	"folders":
+	[
+		{
+			"path": "../",
+			"folder_exclude_patterns": ["build"]
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Constrained-LQR - all",
+			"cmd": ["/usr/bin/make", "-f", "Makefile", "VERBOSE=1", "all"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Constrained-LQR - clean",
+			"cmd": ["/usr/bin/make", "-f", "Makefile", "VERBOSE=1", "clean"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Constrained-LQR - doc",
+			"cmd": ["/usr/bin/make", "-f", "Makefile", "VERBOSE=1", "doc"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Constrained-LQR - edit_cache",
+			"cmd": ["/usr/bin/make", "-f", "Makefile", "VERBOSE=1", "edit_cache"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Constrained-LQR - rebuild_cache",
+			"cmd": ["/usr/bin/make", "-f", "Makefile", "VERBOSE=1", "rebuild_cache"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Constrained-LQR - mpc",
+			"cmd": ["/usr/bin/make", "-f", "Makefile", "VERBOSE=1", "mpc"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Constrained-LQR - mpc/fast",
+			"cmd": ["/usr/bin/make", "-f", "Makefile", "VERBOSE=1", "mpc/fast"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		}
+	]
+	}
