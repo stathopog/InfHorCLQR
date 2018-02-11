@@ -2,7 +2,7 @@
 C++ code for solving the infinite horizon constrained LQR problem with the dual proximal gradient method. Comparison with linear MPC.
 
 ## Further details
-The regulation of a 2-state toy-system to the origin while respecting state and input constraints is solved using (i) the infinite horizon constrained LQR approach (**CLQR**) as presented in the corresponding [paper](https://infoscience.epfl.ch/record/225463?ln=en) and (ii) using conventional model predictive control (**MPC**). The problem is solved in closed loop and a perturbation in the initial state is applied in the beginning of each solve.
+The regulation of a 2-state toy-system to the origin while respecting state and input constraints is solved using (i) the infinite horizon constrained LQR approach (**CLQR**) as presented in the corresponding [paper](https://infoscience.epfl.ch/record/225463?ln=en) and (ii) using conventional model predictive control (**MPC**). The problem is solved in closed loop and a perturbation to the initial state is applied at the beginning of each solve.
 
 ## Instructions
 There are three folders, namely *data*, *main_CLQR* and *main_MPC*. 
@@ -11,8 +11,8 @@ The *main_CLQR* folder contains the compiled code for the CLQR solution. Execute
 The *main_MPC* folder contains the compiled code for the MPC solution. Execute `./mpc` from a terminal, located in `main_MPC/build/src/MPC`
 After having performed any change to the codes (e.g., to the CLQR code), run the following commands:
 ```
-main_CLQR/build
+cd main_CLQR/build
 make
-main_CLQR/build/src/CLQR
+cd main_CLQR/build/src/CLQR
 ./clqr
 ```
