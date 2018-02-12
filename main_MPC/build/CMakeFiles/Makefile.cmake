@@ -47,13 +47,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.0/Modules/Platform/Darwin-Clang.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.0/Modules/Platform/Darwin.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.0/Modules/Platform/UnixPaths.cmake"
-  "../CMakeLists.txt"
-  "../Doxyfile.in"
+  "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/CMakeLists.txt"
+  "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/Doxyfile.in"
+  "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/CMakeLists.txt"
+  "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/CMakeLists.txt"
   "CMakeFiles/3.0.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.0.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.0.2/CMakeSystem.cmake"
-  "../src/CMakeLists.txt"
-  "../src/MPC/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/src
+# Install script for directory: /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/src/CLQR/cmake_install.cmake")
+  include("/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/src/CLQR/cmake_install.cmake")
 
 endif()
 

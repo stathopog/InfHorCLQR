@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R
+CMAKE_SOURCE_DIR = /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build
+CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,9 +73,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/CMakeFiles /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/CMakeFiles /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

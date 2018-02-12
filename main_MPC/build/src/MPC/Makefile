@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build
+CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC/CMakeFiles/progress.marks
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles 0
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC/CMakeFiles/progress.marks
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/clean
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,22 +89,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/preinstall
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/preinstall
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/MPC/CMakeFiles/mpc.dir/rule:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/CMakeFiles/mpc.dir/rule
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/MPC/CMakeFiles/mpc.dir/rule
 .PHONY : src/MPC/CMakeFiles/mpc.dir/rule
 
 # Convenience name for target.
@@ -113,7 +113,7 @@ mpc: src/MPC/CMakeFiles/mpc.dir/rule
 
 # fast build rule for target.
 mpc/fast:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/build
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/build
 .PHONY : mpc/fast
 
 Backtrack.o: Backtrack.cpp.o
@@ -121,7 +121,7 @@ Backtrack.o: Backtrack.cpp.o
 
 # target to build an object file
 Backtrack.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o
 .PHONY : Backtrack.cpp.o
 
 Backtrack.i: Backtrack.cpp.i
@@ -129,7 +129,7 @@ Backtrack.i: Backtrack.cpp.i
 
 # target to preprocess a source file
 Backtrack.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.i
 .PHONY : Backtrack.cpp.i
 
 Backtrack.s: Backtrack.cpp.s
@@ -137,7 +137,7 @@ Backtrack.s: Backtrack.cpp.s
 
 # target to generate assembly for a file
 Backtrack.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.s
 .PHONY : Backtrack.cpp.s
 
 GenerateTrajectories.o: GenerateTrajectories.cpp.o
@@ -145,7 +145,7 @@ GenerateTrajectories.o: GenerateTrajectories.cpp.o
 
 # target to build an object file
 GenerateTrajectories.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o
 .PHONY : GenerateTrajectories.cpp.o
 
 GenerateTrajectories.i: GenerateTrajectories.cpp.i
@@ -153,7 +153,7 @@ GenerateTrajectories.i: GenerateTrajectories.cpp.i
 
 # target to preprocess a source file
 GenerateTrajectories.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.i
 .PHONY : GenerateTrajectories.cpp.i
 
 GenerateTrajectories.s: GenerateTrajectories.cpp.s
@@ -161,7 +161,7 @@ GenerateTrajectories.s: GenerateTrajectories.cpp.s
 
 # target to generate assembly for a file
 GenerateTrajectories.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.s
 .PHONY : GenerateTrajectories.cpp.s
 
 ImportDataFromFile.o: ImportDataFromFile.cpp.o
@@ -169,7 +169,7 @@ ImportDataFromFile.o: ImportDataFromFile.cpp.o
 
 # target to build an object file
 ImportDataFromFile.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o
 .PHONY : ImportDataFromFile.cpp.o
 
 ImportDataFromFile.i: ImportDataFromFile.cpp.i
@@ -177,7 +177,7 @@ ImportDataFromFile.i: ImportDataFromFile.cpp.i
 
 # target to preprocess a source file
 ImportDataFromFile.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.i
 .PHONY : ImportDataFromFile.cpp.i
 
 ImportDataFromFile.s: ImportDataFromFile.cpp.s
@@ -185,7 +185,7 @@ ImportDataFromFile.s: ImportDataFromFile.cpp.s
 
 # target to generate assembly for a file
 ImportDataFromFile.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.s
 .PHONY : ImportDataFromFile.cpp.s
 
 InitVars.o: InitVars.cpp.o
@@ -193,7 +193,7 @@ InitVars.o: InitVars.cpp.o
 
 # target to build an object file
 InitVars.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o
 .PHONY : InitVars.cpp.o
 
 InitVars.i: InitVars.cpp.i
@@ -201,7 +201,7 @@ InitVars.i: InitVars.cpp.i
 
 # target to preprocess a source file
 InitVars.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.i
 .PHONY : InitVars.cpp.i
 
 InitVars.s: InitVars.cpp.s
@@ -209,7 +209,7 @@ InitVars.s: InitVars.cpp.s
 
 # target to generate assembly for a file
 InitVars.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.s
 .PHONY : InitVars.cpp.s
 
 OptimalValue.o: OptimalValue.cpp.o
@@ -217,7 +217,7 @@ OptimalValue.o: OptimalValue.cpp.o
 
 # target to build an object file
 OptimalValue.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o
 .PHONY : OptimalValue.cpp.o
 
 OptimalValue.i: OptimalValue.cpp.i
@@ -225,7 +225,7 @@ OptimalValue.i: OptimalValue.cpp.i
 
 # target to preprocess a source file
 OptimalValue.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.i
 .PHONY : OptimalValue.cpp.i
 
 OptimalValue.s: OptimalValue.cpp.s
@@ -233,7 +233,7 @@ OptimalValue.s: OptimalValue.cpp.s
 
 # target to generate assembly for a file
 OptimalValue.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.s
 .PHONY : OptimalValue.cpp.s
 
 ProjectActiveSet.o: ProjectActiveSet.cpp.o
@@ -241,7 +241,7 @@ ProjectActiveSet.o: ProjectActiveSet.cpp.o
 
 # target to build an object file
 ProjectActiveSet.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o
 .PHONY : ProjectActiveSet.cpp.o
 
 ProjectActiveSet.i: ProjectActiveSet.cpp.i
@@ -249,7 +249,7 @@ ProjectActiveSet.i: ProjectActiveSet.cpp.i
 
 # target to preprocess a source file
 ProjectActiveSet.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.i
 .PHONY : ProjectActiveSet.cpp.i
 
 ProjectActiveSet.s: ProjectActiveSet.cpp.s
@@ -257,7 +257,7 @@ ProjectActiveSet.s: ProjectActiveSet.cpp.s
 
 # target to generate assembly for a file
 ProjectActiveSet.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.s
 .PHONY : ProjectActiveSet.cpp.s
 
 SaveDataToFile.o: SaveDataToFile.cpp.o
@@ -265,7 +265,7 @@ SaveDataToFile.o: SaveDataToFile.cpp.o
 
 # target to build an object file
 SaveDataToFile.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o
 .PHONY : SaveDataToFile.cpp.o
 
 SaveDataToFile.i: SaveDataToFile.cpp.i
@@ -273,7 +273,7 @@ SaveDataToFile.i: SaveDataToFile.cpp.i
 
 # target to preprocess a source file
 SaveDataToFile.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.i
 .PHONY : SaveDataToFile.cpp.i
 
 SaveDataToFile.s: SaveDataToFile.cpp.s
@@ -281,7 +281,7 @@ SaveDataToFile.s: SaveDataToFile.cpp.s
 
 # target to generate assembly for a file
 SaveDataToFile.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.s
 .PHONY : SaveDataToFile.cpp.s
 
 SolveMPC.o: SolveMPC.cpp.o
@@ -289,7 +289,7 @@ SolveMPC.o: SolveMPC.cpp.o
 
 # target to build an object file
 SolveMPC.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o
 .PHONY : SolveMPC.cpp.o
 
 SolveMPC.i: SolveMPC.cpp.i
@@ -297,7 +297,7 @@ SolveMPC.i: SolveMPC.cpp.i
 
 # target to preprocess a source file
 SolveMPC.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.i
 .PHONY : SolveMPC.cpp.i
 
 SolveMPC.s: SolveMPC.cpp.s
@@ -305,7 +305,7 @@ SolveMPC.s: SolveMPC.cpp.s
 
 # target to generate assembly for a file
 SolveMPC.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.s
 .PHONY : SolveMPC.cpp.s
 
 main.o: main.cpp.o
@@ -313,7 +313,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/main.cpp.o
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -321,7 +321,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/main.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -329,7 +329,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/main.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(MAKE) -f src/MPC/CMakeFiles/mpc.dir/build.make src/MPC/CMakeFiles/mpc.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -379,6 +379,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

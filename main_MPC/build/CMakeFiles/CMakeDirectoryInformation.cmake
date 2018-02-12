@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

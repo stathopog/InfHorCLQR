@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC/cmake_install.cmake")
+  include("/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC/cmake_install.cmake")
 
 endif()
 

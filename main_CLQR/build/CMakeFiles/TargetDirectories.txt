@@ -1,2 +1,2 @@
-/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/src/CLQR/CMakeFiles/clqr.dir
-/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/CMakeFiles/doc.dir
+/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/src/CLQR/CMakeFiles/clqr.dir
+/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/CMakeFiles/doc.dir

@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R
+CMAKE_SOURCE_DIR = /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build
+CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/CMakeFiles /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/src/CMakeFiles/progress.marks
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/CMakeFiles 0
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/CMakeFiles /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/src/CMakeFiles/progress.marks
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,17 +89,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -121,6 +121,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

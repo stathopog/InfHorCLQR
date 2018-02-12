@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build
+CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build
 
 # Include any dependencies generated for this target.
 include src/MPC/CMakeFiles/mpc.dir/depend.make
@@ -50,18 +50,18 @@ include src/MPC/CMakeFiles/mpc.dir/progress.make
 include src/MPC/CMakeFiles/mpc.dir/flags.make
 
 src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o: ../src/MPC/Backtrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_1)
+src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/Backtrack.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/Backtrack.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/Backtrack.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/Backtrack.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/Backtrack.cpp
 
 src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/Backtrack.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/Backtrack.cpp > CMakeFiles/mpc.dir/Backtrack.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/Backtrack.cpp > CMakeFiles/mpc.dir/Backtrack.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/Backtrack.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/Backtrack.cpp -o CMakeFiles/mpc.dir/Backtrack.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/Backtrack.cpp -o CMakeFiles/mpc.dir/Backtrack.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o.requires
@@ -73,18 +73,18 @@ src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o.provides: src/MPC/CMakeFiles/mpc.dir/
 src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/Backtrack.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o: ../src/MPC/GenerateTrajectories.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_2)
+src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/GenerateTrajectories.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/GenerateTrajectories.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/GenerateTrajectories.cpp
 
 src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/GenerateTrajectories.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/GenerateTrajectories.cpp > CMakeFiles/mpc.dir/GenerateTrajectories.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/GenerateTrajectories.cpp > CMakeFiles/mpc.dir/GenerateTrajectories.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/GenerateTrajectories.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/GenerateTrajectories.cpp -o CMakeFiles/mpc.dir/GenerateTrajectories.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/GenerateTrajectories.cpp -o CMakeFiles/mpc.dir/GenerateTrajectories.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o.requires
@@ -96,18 +96,18 @@ src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o.provides: src/MPC/CMakeFil
 src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/GenerateTrajectories.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o: ../src/MPC/ImportDataFromFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_3)
+src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ImportDataFromFile.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ImportDataFromFile.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ImportDataFromFile.cpp
 
 src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/ImportDataFromFile.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ImportDataFromFile.cpp > CMakeFiles/mpc.dir/ImportDataFromFile.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ImportDataFromFile.cpp > CMakeFiles/mpc.dir/ImportDataFromFile.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/ImportDataFromFile.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ImportDataFromFile.cpp -o CMakeFiles/mpc.dir/ImportDataFromFile.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ImportDataFromFile.cpp -o CMakeFiles/mpc.dir/ImportDataFromFile.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o.requires
@@ -119,18 +119,18 @@ src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o.provides: src/MPC/CMakeFiles
 src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/ImportDataFromFile.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o: ../src/MPC/InitVars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_4)
+src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/InitVars.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/InitVars.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/InitVars.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/InitVars.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/InitVars.cpp
 
 src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/InitVars.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/InitVars.cpp > CMakeFiles/mpc.dir/InitVars.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/InitVars.cpp > CMakeFiles/mpc.dir/InitVars.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/InitVars.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/InitVars.cpp -o CMakeFiles/mpc.dir/InitVars.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/InitVars.cpp -o CMakeFiles/mpc.dir/InitVars.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o.requires
@@ -142,18 +142,18 @@ src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o.provides: src/MPC/CMakeFiles/mpc.dir/I
 src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/InitVars.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/main.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/main.cpp.o: ../src/MPC/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_5)
+src/MPC/CMakeFiles/mpc.dir/main.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/main.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/main.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/main.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/main.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/main.cpp
 
 src/MPC/CMakeFiles/mpc.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/main.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/main.cpp > CMakeFiles/mpc.dir/main.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/main.cpp > CMakeFiles/mpc.dir/main.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/main.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/main.cpp -o CMakeFiles/mpc.dir/main.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/main.cpp -o CMakeFiles/mpc.dir/main.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/main.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/main.cpp.o.requires
@@ -165,18 +165,18 @@ src/MPC/CMakeFiles/mpc.dir/main.cpp.o.provides: src/MPC/CMakeFiles/mpc.dir/main.
 src/MPC/CMakeFiles/mpc.dir/main.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/main.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o: ../src/MPC/OptimalValue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_6)
+src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/OptimalValue.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/OptimalValue.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/OptimalValue.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/OptimalValue.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/OptimalValue.cpp
 
 src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/OptimalValue.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/OptimalValue.cpp > CMakeFiles/mpc.dir/OptimalValue.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/OptimalValue.cpp > CMakeFiles/mpc.dir/OptimalValue.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/OptimalValue.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/OptimalValue.cpp -o CMakeFiles/mpc.dir/OptimalValue.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/OptimalValue.cpp -o CMakeFiles/mpc.dir/OptimalValue.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o.requires
@@ -188,18 +188,18 @@ src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o.provides: src/MPC/CMakeFiles/mpc.d
 src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/OptimalValue.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o: ../src/MPC/ProjectActiveSet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_7)
+src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ProjectActiveSet.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ProjectActiveSet.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ProjectActiveSet.cpp
 
 src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/ProjectActiveSet.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ProjectActiveSet.cpp > CMakeFiles/mpc.dir/ProjectActiveSet.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ProjectActiveSet.cpp > CMakeFiles/mpc.dir/ProjectActiveSet.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/ProjectActiveSet.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ProjectActiveSet.cpp -o CMakeFiles/mpc.dir/ProjectActiveSet.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/ProjectActiveSet.cpp -o CMakeFiles/mpc.dir/ProjectActiveSet.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o.requires
@@ -211,18 +211,18 @@ src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o.provides: src/MPC/CMakeFiles/m
 src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/ProjectActiveSet.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o: ../src/MPC/SaveDataToFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_8)
+src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SaveDataToFile.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/SaveDataToFile.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SaveDataToFile.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/SaveDataToFile.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SaveDataToFile.cpp
 
 src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/SaveDataToFile.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SaveDataToFile.cpp > CMakeFiles/mpc.dir/SaveDataToFile.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SaveDataToFile.cpp > CMakeFiles/mpc.dir/SaveDataToFile.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/SaveDataToFile.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SaveDataToFile.cpp -o CMakeFiles/mpc.dir/SaveDataToFile.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SaveDataToFile.cpp -o CMakeFiles/mpc.dir/SaveDataToFile.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o.requires
@@ -234,18 +234,18 @@ src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o.provides: src/MPC/CMakeFiles/mpc
 src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o.provides.build: src/MPC/CMakeFiles/mpc.dir/SaveDataToFile.cpp.o
 
 src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o: src/MPC/CMakeFiles/mpc.dir/flags.make
-src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o: ../src/MPC/SolveMPC.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_9)
+src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SolveMPC.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/SolveMPC.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SolveMPC.cpp
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/SolveMPC.cpp.o -c /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SolveMPC.cpp
 
 src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/SolveMPC.cpp.i"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SolveMPC.cpp > CMakeFiles/mpc.dir/SolveMPC.cpp.i
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SolveMPC.cpp > CMakeFiles/mpc.dir/SolveMPC.cpp.i
 
 src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/SolveMPC.cpp.s"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SolveMPC.cpp -o CMakeFiles/mpc.dir/SolveMPC.cpp.s
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC/SolveMPC.cpp -o CMakeFiles/mpc.dir/SolveMPC.cpp.s
 
 src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o.requires:
 .PHONY : src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o.requires
@@ -284,7 +284,7 @@ src/MPC/mpc: src/MPC/CMakeFiles/mpc.dir/build.make
 src/MPC/mpc: /usr/lib/libarmadillo.dylib
 src/MPC/mpc: src/MPC/CMakeFiles/mpc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable mpc"
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpc.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/MPC/CMakeFiles/mpc.dir/build: src/MPC/mpc
@@ -302,10 +302,10 @@ src/MPC/CMakeFiles/mpc.dir/requires: src/MPC/CMakeFiles/mpc.dir/SolveMPC.cpp.o.r
 .PHONY : src/MPC/CMakeFiles/mpc.dir/requires
 
 src/MPC/CMakeFiles/mpc.dir/clean:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC && $(CMAKE_COMMAND) -P CMakeFiles/mpc.dir/cmake_clean.cmake
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC && $(CMAKE_COMMAND) -P CMakeFiles/mpc.dir/cmake_clean.cmake
 .PHONY : src/MPC/CMakeFiles/mpc.dir/clean
 
 src/MPC/CMakeFiles/mpc.dir/depend:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/src/MPC/CMakeFiles/mpc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/src/MPC /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/src/MPC/CMakeFiles/mpc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/MPC/CMakeFiles/mpc.dir/depend
 

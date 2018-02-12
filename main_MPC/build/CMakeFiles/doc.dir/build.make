@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build
+CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build
 
 # Utility rule file for doc.
 
@@ -46,9 +46,9 @@ CMAKE_BINARY_DIR = /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating API documentation with Doxygen"
-	/usr/local/bin/doxygen /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/Doxyfile
+	/usr/local/bin/doxygen /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/Doxyfile
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -63,6 +63,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_mpc /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_MPC/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

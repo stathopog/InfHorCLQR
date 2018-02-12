@@ -1,4 +1,4 @@
-# Install script for directory: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R
+# Install script for directory: /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/src/cmake_install.cmake")
+  include("/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/src/cmake_install.cmake")
 
 endif()
 
@@ -39,7 +39,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

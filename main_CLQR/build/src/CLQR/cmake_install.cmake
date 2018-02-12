@@ -1,4 +1,4 @@
-# Install script for directory: /Users/georgios/Documents/Research/CLQR_via_FBS/Cpp_Code/main_files_R/src/CLQR
+# Install script for directory: /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
