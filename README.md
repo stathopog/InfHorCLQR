@@ -21,7 +21,7 @@ After having performed any change to the codes (e.g., to the CLQR code), run the
 ```
 cd main_CLQR/build
 make
-cd main_CLQR/build/src/CLQR
+cd src/CLQR
 ./clqr
 ```
 ## References

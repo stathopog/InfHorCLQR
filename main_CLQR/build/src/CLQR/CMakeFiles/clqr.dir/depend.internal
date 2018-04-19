@@ -7,6 +7,38 @@ src/CLQR/CMakeFiles/clqr.dir/Backtrack.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/GenerateTrajectories.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/InitVars.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -440,11 +472,44 @@ src/CLQR/CMakeFiles/clqr.dir/Backtrack.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/GenerateTrajectories.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/GenerateTrajectories.cpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/GenerateTrajectories.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/InitVars.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -878,9 +943,42 @@ src/CLQR/CMakeFiles/clqr.dir/GenerateTrajectories.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/ImportDataFromFile.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.cpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -1314,10 +1412,43 @@ src/CLQR/CMakeFiles/clqr.dir/ImportDataFromFile.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/InitVars.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/InitVars.cpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/InitVars.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -1751,11 +1882,44 @@ src/CLQR/CMakeFiles/clqr.dir/InitVars.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/OptimalValue.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/InitVars.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/OptimalValue.cpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/OptimalValue.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -2189,11 +2353,44 @@ src/CLQR/CMakeFiles/clqr.dir/OptimalValue.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/ProjectActiveSet.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/InitVars.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ProjectActiveSet.cpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ProjectActiveSet.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -2627,11 +2824,44 @@ src/CLQR/CMakeFiles/clqr.dir/ProjectActiveSet.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/SaveDataToFile.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ImportDataFromFile.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/InitVars.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/SaveDataToFile.cpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/SaveDataToFile.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -3065,6 +3295,7 @@ src/CLQR/CMakeFiles/clqr.dir/SaveDataToFile.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/SolveCLQR.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/Backtrack.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/GenerateTrajectories.hpp
@@ -3073,6 +3304,38 @@ src/CLQR/CMakeFiles/clqr.dir/SolveCLQR.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/ProjectActiveSet.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/SolveCLQR.cpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/SolveCLQR.hpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -3506,6 +3769,7 @@ src/CLQR/CMakeFiles/clqr.dir/SolveCLQR.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
 src/CLQR/CMakeFiles/clqr.dir/main.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/Backtrack.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/GenerateTrajectories.hpp
@@ -3516,6 +3780,38 @@ src/CLQR/CMakeFiles/clqr.dir/main.cpp.o
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/SaveDataToFile.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/SolveCLQR.hpp
  /Users/georgios/Documents/Research/GitHub/InfHorCLQR/main_CLQR/src/CLQR/main.cpp
+ /opt/local/include/H5ACpublic.h
+ /opt/local/include/H5Apublic.h
+ /opt/local/include/H5Cpublic.h
+ /opt/local/include/H5Dpublic.h
+ /opt/local/include/H5Epubgen.h
+ /opt/local/include/H5Epublic.h
+ /opt/local/include/H5FDcore.h
+ /opt/local/include/H5FDdirect.h
+ /opt/local/include/H5FDfamily.h
+ /opt/local/include/H5FDlog.h
+ /opt/local/include/H5FDmpi.h
+ /opt/local/include/H5FDmpio.h
+ /opt/local/include/H5FDmulti.h
+ /opt/local/include/H5FDpublic.h
+ /opt/local/include/H5FDsec2.h
+ /opt/local/include/H5FDstdio.h
+ /opt/local/include/H5Fpublic.h
+ /opt/local/include/H5Gpublic.h
+ /opt/local/include/H5Ipublic.h
+ /opt/local/include/H5Lpublic.h
+ /opt/local/include/H5MMpublic.h
+ /opt/local/include/H5Opublic.h
+ /opt/local/include/H5PLpublic.h
+ /opt/local/include/H5Ppublic.h
+ /opt/local/include/H5Rpublic.h
+ /opt/local/include/H5Spublic.h
+ /opt/local/include/H5Tpublic.h
+ /opt/local/include/H5Zpublic.h
+ /opt/local/include/H5api_adpt.h
+ /opt/local/include/H5pubconf.h
+ /opt/local/include/H5public.h
+ /opt/local/include/H5version.h
  /opt/local/include/armadillo
  /opt/local/include/armadillo_bits/BaseCube_bones.hpp
  /opt/local/include/armadillo_bits/BaseCube_meat.hpp
@@ -3949,3 +4245,4 @@ src/CLQR/CMakeFiles/clqr.dir/main.cpp.o
  /opt/local/include/armadillo_bits/xtrans_mat_meat.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_bones.hpp
  /opt/local/include/armadillo_bits/xvec_htrans_meat.hpp
+ /opt/local/include/hdf5.h
